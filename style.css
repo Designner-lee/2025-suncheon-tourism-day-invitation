@@ -38,3 +38,9 @@ body {
     text-decoration: none;
     border-radius: 5px;
 }
+/* style.css 파일에 추가 */
+.main-img {
+    width: 100%;       /* 컨테이너 너비에 맞춤 */
+    height: auto;      /* 이미지 비율 유지 */
+    display: block;    /* 불필요한 공백 제거 */
+}
