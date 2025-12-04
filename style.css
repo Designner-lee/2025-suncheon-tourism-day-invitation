@@ -1,13 +1,11 @@
 /* 1. 기본 스타일 재설정: 브라우저가 기본으로 적용하는 여백 제거 */
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow-x: hidden; /* 가로 스크롤바 숨김 */
-            font-family: Arial, sans-serif; /* 기본 글꼴 설정 */
-            background-color: #f0f0f0; /* 전체 페이지 배경색 (선택 사항) */
-        }
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* height: 100%; 대신 content-fit에 맡기거나, 필요하다면 최소 높이만 지정합니다. */
+    overflow-x: hidden; /* 가로 스크롤만 방지하고, 세로 스크롤은 허용합니다. */
+}
         
         /* 2. 메인 컨테이너 설정: 모바일 중앙 정렬 및 최대 폭 제한 */
         .invitation-container {
