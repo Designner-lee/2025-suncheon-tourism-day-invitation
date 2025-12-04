@@ -70,3 +70,14 @@ p {
     color: #000;
     margin-bottom: 20px;
 }
+.map-container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.map-container iframe {
+    width: 100%; /* iframe 너비를 컨테이너에 맞춤 */
+    display: block;
+}
